@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: https://harbor1.tomchien.info/harbor/projects/3/repositories/myweb:1
+      - image: https://harbor1.tomchien.info/public/myweb:1
         imagePullPolicy: Always
         name: myweb
 
