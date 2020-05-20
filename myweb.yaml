@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: https://harbor1.tomchien.info/public/myweb:1
+      - image: 192.168.1.58:5000/justme/myweb:1
         imagePullPolicy: Always
         name: myweb
 
